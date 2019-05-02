@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CF0E7BC22641343000F66A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E7BB22641343000F66A0 /* AppDelegate.swift */; };
+		4CF0E7BE22641343000F66A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E7BD22641343000F66A0 /* ViewController.swift */; };
+		4CF0E7C122641343000F66A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF0E7BF22641343000F66A0 /* Main.storyboard */; };
+		4CF0E7C622641345000F66A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF0E7C422641345000F66A0 /* LaunchScreen.storyboard */; };
+		4CF0E7CF2264135C000F66A0 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E7CE2264135C000F66A0 /* Song.swift */; };
+		4CF0E7D222641373000F66A0 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E7D122641373000F66A0 /* SongCell.swift */; };
+		4CF0E7D62264137D000F66A0 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E7D42264137D000F66A0 /* MainController.swift */; };
+		4CF0E7D72264137D000F66A0 /* SongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E7D52264137D000F66A0 /* SongController.swift */; };
+		4CF0E7E722641386000F66A0 /* Mot Dem Say.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CF0E7D922641386000F66A0 /* Mot Dem Say.mp3 */; };
+		4CF0E7E822641386000F66A0 /* La Lung.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CF0E7DA22641386000F66A0 /* La Lung.mp3 */; };
+		4CF0E7E922641386000F66A0 /* Hongkong1 (Official Version).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CF0E7DB22641386000F66A0 /* Hongkong1 (Official Version).mp3 */; };
+		4CF0E7EA22641386000F66A0 /* Hong Nhan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CF0E7DC22641386000F66A0 /* Hong Nhan.mp3 */; };
+		4CF0E7EB22641386000F66A0 /* Anh Nha O Dau The.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CF0E7DD22641386000F66A0 /* Anh Nha O Dau The.mp3 */; };
+		4CF0E7EC22641386000F66A0 /* O Trong Thanh Pho (Masew remix).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CF0E7DE22641386000F66A0 /* O Trong Thanh Pho (Masew remix).mp3 */; };
+		4CF0E7ED22641386000F66A0 /* Kem Duyen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CF0E7DF22641386000F66A0 /* Kem Duyen.mp3 */; };
+		4CF0E7EE22641386000F66A0 /* Co Gai M52.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CF0E7E022641386000F66A0 /* Co Gai M52.mp3 */; };
+		4CF0E7EF22641386000F66A0 /* Bong Hoa Chang Thuoc Ve Ta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CF0E7E122641386000F66A0 /* Bong Hoa Chang Thuoc Ve Ta.mp3 */; };
+		4CF0E7F022641386000F66A0 /* Suyt Nua Thi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CF0E7E222641386000F66A0 /* Suyt Nua Thi.mp3 */; };
+		4CF0E7F122641386000F66A0 /* Thang Dien.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CF0E7E322641386000F66A0 /* Thang Dien.mp3 */; };
+		4CF0E7F222641386000F66A0 /* Cam Giac Luc Ay Se Ra Sao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CF0E7E422641386000F66A0 /* Cam Giac Luc Ay Se Ra Sao.mp3 */; };
+		4CF0E7F322641386000F66A0 /* Buoc Deu Buoc.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CF0E7E522641386000F66A0 /* Buoc Deu Buoc.mp3 */; };
+		4CF0E7F422641386000F66A0 /* Vo Tinh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CF0E7E622641386000F66A0 /* Vo Tinh.mp3 */; };
+		4CF0E7F72264138C000F66A0 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E7F62264138C000F66A0 /* extensions.swift */; };
+		4CF0E7F822643BD3000F66A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF0E7C222641345000F66A0 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CF0E7B822641343000F66A0 /* Muzic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muzic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF0E7BB22641343000F66A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CF0E7BD22641343000F66A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CF0E7C022641343000F66A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CF0E7C222641345000F66A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CF0E7C522641345000F66A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CF0E7C722641345000F66A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF0E7CE2264135C000F66A0 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		4CF0E7D122641373000F66A0 /* SongCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
+		4CF0E7D42264137D000F66A0 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		4CF0E7D52264137D000F66A0 /* SongController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongController.swift; sourceTree = "<group>"; };
+		4CF0E7D922641386000F66A0 /* Mot Dem Say.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mot Dem Say.mp3"; sourceTree = "<group>"; };
+		4CF0E7DA22641386000F66A0 /* La Lung.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "La Lung.mp3"; sourceTree = "<group>"; };
+		4CF0E7DB22641386000F66A0 /* Hongkong1 (Official Version).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hongkong1 (Official Version).mp3"; sourceTree = "<group>"; };
+		4CF0E7DC22641386000F66A0 /* Hong Nhan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hong Nhan.mp3"; sourceTree = "<group>"; };
+		4CF0E7DD22641386000F66A0 /* Anh Nha O Dau The.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Anh Nha O Dau The.mp3"; sourceTree = "<group>"; };
+		4CF0E7DE22641386000F66A0 /* O Trong Thanh Pho (Masew remix).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "O Trong Thanh Pho (Masew remix).mp3"; sourceTree = "<group>"; };
+		4CF0E7DF22641386000F66A0 /* Kem Duyen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kem Duyen.mp3"; sourceTree = "<group>"; };
+		4CF0E7E022641386000F66A0 /* Co Gai M52.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Co Gai M52.mp3"; sourceTree = "<group>"; };
+		4CF0E7E122641386000F66A0 /* Bong Hoa Chang Thuoc Ve Ta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bong Hoa Chang Thuoc Ve Ta.mp3"; sourceTree = "<group>"; };
+		4CF0E7E222641386000F66A0 /* Suyt Nua Thi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Suyt Nua Thi.mp3"; sourceTree = "<group>"; };
+		4CF0E7E322641386000F66A0 /* Thang Dien.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Thang Dien.mp3"; sourceTree = "<group>"; };
+		4CF0E7E422641386000F66A0 /* Cam Giac Luc Ay Se Ra Sao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cam Giac Luc Ay Se Ra Sao.mp3"; sourceTree = "<group>"; };
+		4CF0E7E522641386000F66A0 /* Buoc Deu Buoc.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Buoc Deu Buoc.mp3"; sourceTree = "<group>"; };
+		4CF0E7E622641386000F66A0 /* Vo Tinh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Vo Tinh.mp3"; sourceTree = "<group>"; };
+		4CF0E7F62264138C000F66A0 /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CF0E7B522641343000F66A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CF0E7AF22641343000F66A0 = {
+			isa = PBXGroup;
+			children = (
+				4CF0E7BA22641343000F66A0 /* Muzic */,
+				4CF0E7B922641343000F66A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CF0E7B922641343000F66A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CF0E7B822641343000F66A0 /* Muzic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CF0E7BA22641343000F66A0 /* Muzic */ = {
+			isa = PBXGroup;
+			children = (
+				4CF0E7CD2264135C000F66A0 /* Model */,
+				4CF0E7D022641373000F66A0 /* View */,
+				4CF0E7D32264137D000F66A0 /* Controllers */,
+				4CF0E7D822641386000F66A0 /* Songs */,
+				4CF0E7F52264138C000F66A0 /* Helpers */,
+				4CF0E7BD22641343000F66A0 /* ViewController.swift */,
+				4CF0E7BF22641343000F66A0 /* Main.storyboard */,
+				4CF0E7C222641345000F66A0 /* Assets.xcassets */,
+				4CF0E7C422641345000F66A0 /* LaunchScreen.storyboard */,
+				4CF0E7BB22641343000F66A0 /* AppDelegate.swift */,
+				4CF0E7C722641345000F66A0 /* Info.plist */,
+			);
+			path = Muzic;
+			sourceTree = "<group>";
+		};
+		4CF0E7CD2264135C000F66A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CF0E7CE2264135C000F66A0 /* Song.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4CF0E7D022641373000F66A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4CF0E7D122641373000F66A0 /* SongCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4CF0E7D32264137D000F66A0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CF0E7D42264137D000F66A0 /* MainController.swift */,
+				4CF0E7D52264137D000F66A0 /* SongController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4CF0E7D822641386000F66A0 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				4CF0E7D922641386000F66A0 /* Mot Dem Say.mp3 */,
+				4CF0E7DA22641386000F66A0 /* La Lung.mp3 */,
+				4CF0E7DB22641386000F66A0 /* Hongkong1 (Official Version).mp3 */,
+				4CF0E7DC22641386000F66A0 /* Hong Nhan.mp3 */,
+				4CF0E7DD22641386000F66A0 /* Anh Nha O Dau The.mp3 */,
+				4CF0E7DE22641386000F66A0 /* O Trong Thanh Pho (Masew remix).mp3 */,
+				4CF0E7DF22641386000F66A0 /* Kem Duyen.mp3 */,
+				4CF0E7E022641386000F66A0 /* Co Gai M52.mp3 */,
+				4CF0E7E122641386000F66A0 /* Bong Hoa Chang Thuoc Ve Ta.mp3 */,
+				4CF0E7E222641386000F66A0 /* Suyt Nua Thi.mp3 */,
+				4CF0E7E322641386000F66A0 /* Thang Dien.mp3 */,
+				4CF0E7E422641386000F66A0 /* Cam Giac Luc Ay Se Ra Sao.mp3 */,
+				4CF0E7E522641386000F66A0 /* Buoc Deu Buoc.mp3 */,
+				4CF0E7E622641386000F66A0 /* Vo Tinh.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		4CF0E7F52264138C000F66A0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4CF0E7F62264138C000F66A0 /* extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CF0E7B722641343000F66A0 /* Muzic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF0E7CA22641345000F66A0 /* Build configuration list for PBXNativeTarget "Muzic" */;
+			buildPhases = (
+				4CF0E7B422641343000F66A0 /* Sources */,
+				4CF0E7B522641343000F66A0 /* Frameworks */,
+				4CF0E7B622641343000F66A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Muzic;
+			productName = Muzic;
+			productReference = 4CF0E7B822641343000F66A0 /* Muzic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CF0E7B022641343000F66A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Hoang Anh Tuan";
+				TargetAttributes = {
+					4CF0E7B722641343000F66A0 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4CF0E7B322641343000F66A0 /* Build configuration list for PBXProject "Muzic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CF0E7AF22641343000F66A0;
+			productRefGroup = 4CF0E7B922641343000F66A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CF0E7B722641343000F66A0 /* Muzic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CF0E7B622641343000F66A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF0E7EA22641386000F66A0 /* Hong Nhan.mp3 in Resources */,
+				4CF0E7F222641386000F66A0 /* Cam Giac Luc Ay Se Ra Sao.mp3 in Resources */,
+				4CF0E7F022641386000F66A0 /* Suyt Nua Thi.mp3 in Resources */,
+				4CF0E7E722641386000F66A0 /* Mot Dem Say.mp3 in Resources */,
+				4CF0E7E822641386000F66A0 /* La Lung.mp3 in Resources */,
+				4CF0E7F122641386000F66A0 /* Thang Dien.mp3 in Resources */,
+				4CF0E7F822643BD3000F66A0 /* Assets.xcassets in Resources */,
+				4CF0E7EB22641386000F66A0 /* Anh Nha O Dau The.mp3 in Resources */,
+				4CF0E7E922641386000F66A0 /* Hongkong1 (Official Version).mp3 in Resources */,
+				4CF0E7C622641345000F66A0 /* LaunchScreen.storyboard in Resources */,
+				4CF0E7EE22641386000F66A0 /* Co Gai M52.mp3 in Resources */,
+				4CF0E7F422641386000F66A0 /* Vo Tinh.mp3 in Resources */,
+				4CF0E7ED22641386000F66A0 /* Kem Duyen.mp3 in Resources */,
+				4CF0E7EC22641386000F66A0 /* O Trong Thanh Pho (Masew remix).mp3 in Resources */,
+				4CF0E7EF22641386000F66A0 /* Bong Hoa Chang Thuoc Ve Ta.mp3 in Resources */,
+				4CF0E7C122641343000F66A0 /* Main.storyboard in Resources */,
+				4CF0E7F322641386000F66A0 /* Buoc Deu Buoc.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CF0E7B422641343000F66A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF0E7D72264137D000F66A0 /* SongController.swift in Sources */,
+				4CF0E7D222641373000F66A0 /* SongCell.swift in Sources */,
+				4CF0E7CF2264135C000F66A0 /* Song.swift in Sources */,
+				4CF0E7F72264138C000F66A0 /* extensions.swift in Sources */,
+				4CF0E7BE22641343000F66A0 /* ViewController.swift in Sources */,
+				4CF0E7BC22641343000F66A0 /* AppDelegate.swift in Sources */,
+				4CF0E7D62264137D000F66A0 /* MainController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CF0E7BF22641343000F66A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF0E7C022641343000F66A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CF0E7C422641345000F66A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF0E7C522641345000F66A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CF0E7C822641345000F66A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CF0E7C922641345000F66A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CF0E7CB22641345000F66A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RCQA85T6C2;
+				INFOPLIST_FILE = Muzic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hoang-Anh-Tuan.Muzic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CF0E7CC22641345000F66A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RCQA85T6C2;
+				INFOPLIST_FILE = Muzic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hoang-Anh-Tuan.Muzic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CF0E7B322641343000F66A0 /* Build configuration list for PBXProject "Muzic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF0E7C822641345000F66A0 /* Debug */,
+				4CF0E7C922641345000F66A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF0E7CA22641345000F66A0 /* Build configuration list for PBXNativeTarget "Muzic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF0E7CB22641345000F66A0 /* Debug */,
+				4CF0E7CC22641345000F66A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CF0E7B022641343000F66A0 /* Project object */;
+}
